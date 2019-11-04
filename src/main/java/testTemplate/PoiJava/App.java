@@ -62,7 +62,7 @@ public class App
     	      XWPFParagraph currencyNameTitle = tableRowTitle.addNewTableCell().addParagraph();
     	      genFontTextTitle(currencyNameTitle,"Loại tiền",12,font,true); 
     	      
-
+    	      
     	    document.write(out);
     	    out.close();
     	    document.close();
@@ -75,5 +75,10 @@ public class App
     	run.setFontSize(fontSize);
     	run.setFontFamily(fontFamily);
     	run.setBold(bold);
+    	
+    }
+    
+    private static void genFontDataTable () {
+    	
     }
 }
